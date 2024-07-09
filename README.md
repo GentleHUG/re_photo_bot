@@ -5,11 +5,6 @@ The repository can be divided into 2 parts: model training and telegram bot.
 
 # 1.  Model training
 
-Augmenting the images.
-
-Before loading the datasets, we define Custom Transform for image augmentation. This improves learning by introducing more variety in the images during training instead of learning from the same set of images, especially when we only have 300 Monet paintings.
-Iterating through the data sets
-
 To prepare the datasets, we load them into Data Loader separately, which can then iterate through the datasets as needed. Because the training dataset contains both the Monet paintings and photos, we pass both data loaders into CombinedLoader for training.
 We check that the data module defined is working as intended by visualizing samples of the images below
 Building GAN Architecture¶
