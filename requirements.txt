@@ -1,0 +1,6 @@
+telebot
+torchvision
+tensorflow
+pytorch_lightning
+matplotlib
+opencv-python
